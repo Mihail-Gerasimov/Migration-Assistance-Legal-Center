@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Миграционная помощь</title>
+
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/favicon-1.png">
+    <link rel="icon" type="image/png" sizes="144x144" href="./img/favicon/favicon-1.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./img/favicon/favicon-2.png">
+    <link rel="icon" type="image/png" sizes="64x64" href="./img/favicon/favicon-3.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="./img/favicon/favicon-4.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-5.png">
+    <link rel="icon" type="image/png" sizes="24x24" href="./img/favicon/favicon-6.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-7.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <!-- favicon -->
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;900&display=swap" rel="stylesheet">
+
+    <!-- font-family: 'Montserrat', sans-serif; -->
+    <!-- fonts -->
+
+    <!-- styles -->
+    <link rel="stylesheet" href="./css/main.min.css">
+    <link rel="stylesheet" href="./css/media.min.css">
+    <!-- styles -->
+
+</head>
+
+<body>
+
+    <nav class="nav">
+        <div class="container">
+            <div class="nav__main">
+                <div class="nav__logo">
+                    <p class="nav__text fw400"><span class="fw900 blue">Миграционная помощь</span><br>Юридический центр
+                    </p>
+                </div>
+
+                <p class="nav__argument fw400">
+                    <span class="fw900 green">ОТСРОЧКА ВОЕННООБЯЗАННЫМ</span> <br>
+                    Скорая помощь по миграционным вопросам
+                </p>
+
+                <button data-modal class="btn btn-blue nav__btn">Бесплатная консультация</button>
+                <button data-modal-mob class="btn-mobile"><img src="./img/nav/nav-phone.svg" alt=""></button>
+
+            </div>
+        </div>
+    </nav>
+
+    <main class="main">
+        <div class="container">
+            <div class="main__offer">
+                <div class="main__offer--description fw400">
+                    <span class="fw900 green">ОТСРОЧКА ВОЕННООБЯЗАННЫМ</span> <br>
+                    Скорая помощь по миграционным вопросам
+                </div>
+
+                <h1 class="fw900 blue">Нужно гражданство РФ,
+                    РВП или ВНЖ?</h1>
+
+                <img src="./img/first/first-imgM.png" alt="">
+
+                <p class="fw500">Ответьте на 5 вопросов и получите
+                    в кратчайшие сроки!</p>
+
+                <button class="btn btn-green">Начать опрос</button>
+            </div>
+
+            <div class="main__advantages">
+                <div>
+                    <img src="./img/first/first-1.svg" alt="иконка">
+                    <p>15 лет <br>
+                        опыта</p>
+                </div>
+
+                <div>
+                    <img src="./img/first/first-2.svg" alt="иконка">
+                    <p>Юридическая<br> поддержка</p>
+                </div>
+
+                <div>
+                    <img src="./img/first/first-3.svg" alt="иконка">
+                    <p>Гарантированный<br>
+                        соцпакет</p>
+                </div>
+
+                <div>
+                    <img src="./img/first/first-4.svg" alt="иконка">
+                    <p>Оформили более<br>
+                        30 000мигрантов</p>
+                </div>
+            </div>
+        </div>
+        <img class="main__pic" src="./img/first/first-img.png" alt="картинка">
+
+        <!-- quiz -->
+        <div style="display:none ;" class="quiz blurry">
+            <div class="qzui__wrapper">
+                <div class="quiz__wrapper--dialog card">
+                    <button class="closed">
+                        <img src="./img/closed.svg" alt="крестик">
+                    </button>
+
+                    <div class="qzui__wrapper--content">
+                        <div class="qzui__wrapper--content_top-mobile fw400">
+                            <span class="fw900 green">ОТСРОЧКА ВОЕННООБЯЗАННЫМ</span> <br>
+                            Скорая помощь по миграционным вопросам
+                        </div>
+
+                        <!-- #1 -->
+                        <div style="display: ;" class="qzui__wrapper--content_top">
+
+                            <h2 class="title">Гражданином какой страны
+                                Вы являетесь?</h2>
+
+                            <form class="quiz-form" action="">
+                                <div class="quiz-input-wrapper">
+                                    <input placeholder="Ваша страна" type="text" class="input">
+                                </div>
+                            </form>
+                        </div>
+                        <!-- #1 -->
+
+                        <!-- #2 -->
+                        <div style="display: none;" class="qzui__wrapper--content_top">
+
+                            <h2 class="title">В каком регионе
+                                Вы находитесь?</h2>
+
+                            <form class="quiz-form" action="">
+                                <div>
+                                    <div class="quiz__form--wrapper" for="">
+                                        <input checked="" type="radio" name="1" class="quiz__form--input">
+                                        <label class="quiz__form--label">Москва</label>
+                                    </div>
+                                    <div class="quiz__form--wrapper" for="">
+                                        <input type="radio" name="1" class="quiz__form--input">
+                                        <label class="quiz__form--label">Московская область</label>
+                                    </div>
+                                    <div class="quiz__form--wrapper" for="">
+                                        <input type="radio" name="1" class="quiz__form--input">
+                                        <label class="quiz__form--label">Другой регион</label>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <!-- #2 -->
+
+                        <!-- #2.1 - Если ответить на вопрос "Другой регион" - то вылезает эта табличка, а кнопки навигации надо скрыть
+                        , а так же надо скрыть qzui__wrapper--content_top-mobile -->
+                        <div style="display:none ;"
+                            class="qzui__wrapper--content_top qzui__wrapper--content_top-region">
+                            <h2 class="title title-region">К сожалению,
+                                мы не работаем по другим регионам!!!</h2>
+                        </div>
+                        <!-- #2.1 - Если ответить на вопрос "Другой регион" - то вылезает эта табличка, а кнопки навигации надо скрыть
+                        , а так же надо скрыть qzui__wrapper--content_top-mobile -->
+
+                        <!-- #3 -->
+                        <div style="display: none;" class="qzui__wrapper--content_top">
+
+                            <h2 class="title">Введите
+                                Ваш возраст</h2>
+
+                            <form class="quiz-form" action="">
+                                <div class="quiz-input-wrapper">
+                                    <input placeholder="Ваш возраст" type="text" class="input">
+                                </div>
+                            </form>
+                        </div>
+                        <!-- #3 -->
+
+                        <!-- #4 -->
+                        <div style="display: none;" class="qzui__wrapper--content_top">
+
+                            <h2 class="title">Сколько лет проживаете
+                                на территории РФ?</h2>
+
+                            <form class="quiz-form" action="">
+                                <div>
+                                    <div class="quiz__form--wrapper" for="">
+                                        <input checked="" type="radio" name="2" class="quiz__form--input">
+                                        <label class="quiz__form--label">До 6 месяцев</label>
+                                    </div>
+                                    <div class="quiz__form--wrapper" for="">
+                                        <input type="radio" name="2" class="quiz__form--input">
+                                        <label class="quiz__form--label">От 6 до 12 месяцев</label>
+                                    </div>
+                                    <div class="quiz__form--wrapper" for="">
+                                        <input type="radio" name="2" class="quiz__form--input">
+                                        <label class="quiz__form--label">1-3 года</label>
+                                    </div>
+                                    <div class="quiz__form--wrapper" for="">
+                                        <input type="radio" name="2" class="quiz__form--input">
+                                        <label class="quiz__form--label">3-5 лет</label>
+                                    </div>
+                                    <div class="quiz__form--wrapper" for="">
+                                        <input type="radio" name="2" class="quiz__form--input">
+                                        <label class="quiz__form--label">Более 5 лет</label>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <!-- #4 -->
+
+                        <!-- #5 -->
+                        <div style="display: none;" class="qzui__wrapper--content_top">
+
+                            <h2 class="title">Какой вид документов
+                                Вам нужен?</h2>
+
+                            <form class="quiz-form" action="">
+                                <div>
+                                    <div class="quiz__form--wrapper" for="">
+                                        <input checked="" type="radio" name="3" class="quiz__form--input">
+                                        <label class="quiz__form--label">Гражданство РФ</label>
+                                    </div>
+                                    <div class="quiz__form--wrapper" for="">
+                                        <input type="radio" name="3" class="quiz__form--input">
+                                        <label class="quiz__form--label">РВП</label>
+                                    </div>
+                                    <div class="quiz__form--wrapper" for="">
+                                        <input type="radio" name="3" class="quiz__form--input">
+                                        <label class="quiz__form--label">ВНЖ</label>
+                                    </div>
+                                    <div class="quiz__form--wrapper" for="">
+                                        <input type="radio" name="3" class="quiz__form--input">
+                                        <label class="quiz__form--label">Патент</label>
+                                    </div>
+                                    <div class="quiz__form--wrapper" for="">
+                                        <input type="radio" name="3" class="quiz__form--input">
+                                        <label class="quiz__form--label">Другой вопрос по миграции</label>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <!-- #5 -->
+
+                        <!-- #6 -->
+                        <div style="display:none ;" class="qzui__wrapper--content_top">
+
+                            <h2 class="title">Есть ли у Вас близкие родственники,
+                                являющиеся гражданами РФ?</h2>
+
+                            <form class="quiz-form" action="">
+                                <div>
+                                    <div class="quiz__form--wrapper" for="">
+                                        <input checked="" type="radio" name="4" class="quiz__form--input">
+                                        <label class="quiz__form--label">Да, муж/жена</label>
+                                    </div>
+                                    <div class="quiz__form--wrapper" for="">
+                                        <input type="radio" name="4" class="quiz__form--input">
+                                        <label class="quiz__form--label">Да, родители</label>
+                                    </div>
+                                    <div class="quiz__form--wrapper" for="">
+                                        <input type="radio" name="4" class="quiz__form--input">
+                                        <label class="quiz__form--label">Да, другие родственники</label>
+                                    </div>
+                                    <div class="quiz__form--wrapper" for="">
+                                        <input type="radio" name="4" class="quiz__form--input">
+                                        <label class="quiz__form--label">Нет</label>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <!-- #6 -->
+
+                        <!-- #7 -->
+                        <div style="display: none;" class="qzui__wrapper--content_top">
+
+                            <h2 class="title">Время работы с 9 до 20:00 по МСК.
+                                Выберите удобный способ для связи</h2>
+
+                            <form class="quiz-form" action="">
+                                <div>
+                                    <div class="quiz__form--wrapper" for="">
+                                        <input checked="" type="radio" name="5" class="quiz__form--input">
+                                        <label class="quiz__form--label">Whats App</label>
+                                    </div>
+                                    <div class="quiz__form--wrapper" for="">
+                                        <input type="radio" name="5" class="quiz__form--input">
+                                        <label class="quiz__form--label">Telegram</label>
+                                    </div>
+                                    <div class="quiz__form--wrapper" for="">
+                                        <input type="radio" name="5" class="quiz__form--input">
+                                        <label class="quiz__form--label">Viber</label>
+                                    </div>
+                                    <div class="quiz__form--wrapper" for="">
+                                        <input type="radio" name="5" class="quiz__form--input">
+                                        <label class="quiz__form--label">СМС</label>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <!-- #7 -->
+
+                        <!-- #8 - last-step -->
+                        <div style="display:none;" class="qzui__wrapper--content_top">
+
+                            <h2 class="title title-last-step">Поздравляем!
+                                <span class="green">Вам доступно упрощенное
+                                    оформление документов.</span>
+                                Оставьте свои контакты
+                                для связи с юристом
+                            </h2>
+
+                            <form class="quiz-form" action="">
+                                <div class="quiz-input-wrapper quiz-input-wrapper-last">
+                                    <input placeholder="Ваше имя" type="text" class="input">
+                                </div>
+                                <div class="quiz-input-wrapper">
+                                    <input placeholder="+7 (_ _ _) ___ - _ _ - _ _" type="text" class="input">
+                                </div>
+                            </form>
+                        </div>
+                        <!-- #8 - last-step -->
+
+                        <!-- при выборе (ДРУГОЙ РЕГИОН) -->
+                        <div style="display: ;" class="btn-wrapper">
+                            <button class="btn btn-simple">Назад</button>
+
+                            <button class="btn btn-green">Далее</button>
+                        </div>
+                        <!-- при выборе (ДРУГОЙ РЕГИОН) -->
+
+                        <p style="display:none ;" class="last-step-text">Нажимая на кнопку, вы даете согласие на
+                            обработкуперсональных
+                            данных
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- quiz -->
+
+        <!-- thanks-quiz - появляется отдельно от всего квиза - не мешается -->
+        <div style="display:none ;" class="thanks-quiz blurry">
+            <div class="thanks__wrapper">
+                <div class="thanks__wrapper--dialog card">
+                    <button class="closed">
+                        <img src="./img/closed.svg" alt="крестик">
+                    </button>
+
+                    <div class="thanks__wrapper--content">
+
+                        <img src="./img/thanks-quiz.svg" alt="">
+
+                        <h2 class="fw900 blue">Заявка отправлена</h2>
+                        <p>Ваши ответы приняты в обработку.
+                            В ближайшее время с Вами свяжется юрист</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- thanks-quiz - появляется отдельно от всего квиза - не мешается -->
+
+        <!-- modal -->
+        <div class="modal blurry">
+            <div class="modal__wrapper">
+                <div class="modal__wrapper--dialog card">
+
+                    <button data-closed class="closed">
+                        <img src="./img/closed.svg" alt="крестик">
+                    </button>
+
+                    <div class="modal__wrapper--content">
+
+                        <div class="modal__wrapper--content_description fw400">
+                            <span class="fw900 green">ОТСРОЧКА ВОЕННООБЯЗАННЫМ</span> <br>
+                            Скорая помощь по миграционным вопросам
+                        </div>
+
+                        <h4 class="modal__dialog--title title">Оставьте номер и наш юрист
+                            свяжется с вами в ближайшее время</h4>
+
+                        <form class="modal__wrapper--content_form" action="">
+                            <div>
+                                <input placeholder="Ваше имя" type="text" class="input">
+                            </div>
+                            <div>
+                                <input placeholder="+7 (_ _ _) ___ - _ _ - _ _" type="text" class="input">
+                            </div>
+                            <div class="modal-select-wrapper">
+                                <select class="input" name="" id="">
+                                    <option value="">Москва</option>
+                                    <option value="">Московская область</option>
+                                    <option value="">Другой регион</option>
+                                </select>
+
+                                <img src="./img/select.svg" alt="">
+                            </div>
+                        </form>
+
+                        <div class="btn-wrapper">
+                            <button class="btn btn-simple">Назад</button>
+
+                            <button class="btn btn-green">Отправить</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- modal -->
+
+        <!-- thanks -->
+        <div style="display: none;" class="thanks blurry">
+            <div class="thanks__wrapper">
+                <div class="thanks__wrapper--dialog card">
+                    <button class="closed">
+                        <img src="./img/closed.svg" alt="крестик">
+                    </button>
+
+                    <div class="thanks__wrapper--content">
+
+                        <img src="./img/thanks-modal.svg" alt="">
+
+                        <h2 class="fw900 blue">Заявка отправлена</h2>
+                        <p>Мы получили Вашу заявку
+                            В ближайшее время с Вами свяжется юрист</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- thanks -->
+    </main>
+
+    <footer class="footer">
+        <a class="fw400" href="#">Политика конфиденциальности</a>
+
+        <p class="fw400">
+            г. Москва, ул. Чертановская д.43, корп. 2, <br> <span>Телефон: <a
+                    href="tel:+79035417000">8-903-541-70-00</a>.</span><br>
+            ИП Гусейнов Гудрат Раиз Оглы <br> ИНН: 772626712435 ОГРН: 322774600316231
+        </p>
+    </footer>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

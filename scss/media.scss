@@ -1,0 +1,382 @@
+@media (max-width: 1600px) {
+    .main__pic {
+        max-width: 730px;
+    }
+
+    .main__offer {
+        margin-bottom: 130px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .nav__main .nav__text {
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .nav__main .nav__text span {
+        font-size: 19px;
+        line-height: 21px;
+    }
+
+    .nav__main .nav__argument {
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    .main {
+        padding: 115px 0 35px;
+    }
+
+    .main__offer h1 {
+        font-size: 40px;
+        line-height: 47px;
+        max-width: 560px;
+    }
+
+    .main__pic {
+        max-width: 641px;
+    }
+
+}
+
+@media (max-width: 1200px) {
+    .nav__main .nav__text {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .nav__main .nav__text span {
+        font-size: 19px;
+        line-height: 21px;
+    }
+
+    .nav__main .nav__argument {
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+    }
+
+    .nav__main .nav__btn {
+        max-width: 290px;
+    }
+
+    .btn {
+        font-size: 18px;
+        line-height: 22px;
+        padding: 14px 0;
+    }
+
+    .main__offer h1 {
+        font-size: 33px;
+        line-height: 37px;
+        max-width: 460px;
+    }
+
+    .main__offer p {
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 25px;
+        max-width: 401px;
+    }
+
+    .main__pic {
+        top: 65px;
+        max-width: 540px;
+    }
+
+    .modal__wrapper--dialog {
+        max-width: 735px;
+        min-height: 470px;
+    }
+
+    .closed {
+        max-width: 24px;
+        top: 15px;
+        right: 15px;
+    }
+
+    .title {
+        font-size: 24px;
+        line-height: 29px;
+        margin-bottom: 25px;
+    }
+
+    .modal__wrapper--content {
+        max-width: 520px;
+        margin: 60px auto 0;
+    }
+
+    .input {
+        padding: 15px 0 15px 20px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .thanks__wrapper--dialog {
+        max-width: 300px;
+        min-height: 415px;
+        padding: 0 10px;
+    }
+
+    .thanks__wrapper--content img {
+        max-width: 95px;
+    }
+
+    .thanks__wrapper--content h2 {
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .thanks__wrapper--content {
+        width: 100%;
+    }
+
+    .quiz__wrapper--dialog {
+        max-width: 740px;
+    }
+
+    .title-region {
+        max-width: 570px;
+    }
+
+    .last-step-text {
+        font-size: 14px;
+        line-height: 17px;
+    }
+}
+
+@media (max-width: 991px) {
+    .nav {
+        padding: 27px 0;
+    }
+
+    .nav__main .nav__argument {
+        display: none;
+    }
+
+    .main {
+        padding: 60px 0 35px;
+    }
+
+    .main__offer {
+        margin-bottom: 60px;
+    }
+
+    .main__offer h1 {
+        font-size: 28px;
+        line-height: 32px;
+        max-width: 390px;
+    }
+
+    .main__offer p {
+        font-size: 20px;
+        line-height: 25px;
+        margin-bottom: 25px;
+        max-width: 333px;
+    }
+
+    .main__pic {
+        top: 106px;
+        max-width: 380px;
+    }
+
+    .main__advantages div p {
+        font-size: 14px;
+        line-height: 20px;
+        margin-left: 10px;
+    }
+
+    .main__advantages div img {
+        max-width: 50px;
+    }
+
+    .nav__main .nav__btn {
+        display: none;
+    }
+
+    .btn-mobile {
+        display: block;
+        background-color: transparent;
+    }
+
+    .main__offer--description {
+        display: block;
+        font-size: 20px;
+        line-height: 100%;
+        margin-bottom: 15px;
+
+        span {
+            font-size: 24px;
+        }
+    }
+
+    .footer a {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .footer p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .quiz__wrapper--dialog {
+        min-height: 460px;
+    }
+
+    .qzui__wrapper--content {
+        max-width: 570px;
+        min-height: 350px;
+        margin: 40px auto 0;
+    }
+
+    .last-step-text {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    .main__pic {
+        display: none;
+    }
+
+    .main {
+        padding: 20px 0 35px;
+    }
+
+    .main__offer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 35px;
+
+        img {
+            display: block;
+            margin-bottom: 10px;
+        }
+    }
+
+    // .main__offer h1 {
+    //     margin: 0 auto 10px;
+    // }
+
+    // .main__offer p {
+    //     margin: 0 auto 20px;
+    // }
+
+    // .main__offer button {
+    //     margin: 0 auto;
+    // }
+
+    .main__advantages {
+        flex-direction: column;
+        max-width: 225px;
+        margin: 0 auto;
+        min-height: 335px;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    .modal__wrapper {
+        align-items: flex-start;
+    }
+
+    .modal__wrapper--dialog {
+        margin-top: 30px;
+        max-width: 300px;
+        min-height: 750px;
+    }
+
+    .card {
+        padding: 0 10px;
+    }
+
+    .btn-wrapper {
+        flex-direction: column;
+        min-height: 125px;
+    }
+
+    .btn-wrapper button {
+        max-width: 100%;
+    }
+
+    .modal__wrapper--content {
+        margin: 45px auto 0;
+    }
+
+    .modal-select-wrapper img {
+        max-width: 20px;
+    }
+
+    .modal__wrapper--content_description {
+        display: block;
+    }
+
+    .thanks__wrapper {
+        align-items: flex-start;
+    }
+
+    .thanks__wrapper--dialog {
+        margin-top: 30px;
+    }
+
+    .qzui__wrapper {
+        align-items: flex-start;
+    }
+
+    .quiz__wrapper--dialog {
+        max-width: 300px;
+        min-height: auto;
+        margin-top: 30px;
+        padding-bottom: 90px;
+    }
+
+    .qzui__wrapper--content_top-mobile {
+        display: block;
+    }
+
+    .qzui__wrapper--content_top-region {
+        margin: 130px 0 0 !important;
+    }
+
+    .quiz__form--label {
+        font-size: 15px;
+        line-height: 19px;
+    }
+
+    .title-last-step {
+        font-size: 20px !important;
+        line-height: 26px !important;
+    }
+}
+
+@media (max-width: 575px) {
+    .main__offer--description {
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 10px;
+    }
+
+    .main__offer--description span {
+        font-size: 18px;
+    }
+
+    .main__offer h1 {
+        font-size: 26px;
+        line-height: 32px;
+        margin-bottom: 10px;
+    }
+
+    .nav__main .nav__text {
+        font-size: 14px;
+        line-height: 17px;
+
+        span {
+            font-size: 16px;
+            line-height: 19px;
+        }
+    }
+}
